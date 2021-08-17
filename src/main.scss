@@ -52,15 +52,24 @@ body {
         }
     }
 
-    .slideDiv {
-        display: flex;
+    #imgs-container {
         height: 100%;
         width: 100%;
-        justify-content: center;
-        align-items: center;
+        .slideDiv {
+            display: flex;
+            height: 100%;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
 
-        .slide {
-            display: none;
+            .slide {
+                display: none;
+
+                &.visible {
+                    display: block;
+                }
+            }
         }
     }
+
 }

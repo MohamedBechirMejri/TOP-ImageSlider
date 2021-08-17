@@ -12,15 +12,16 @@ const createCarousel = (array) => {
   const bottomNavbar = document.createElement('div');
   bottomNavbar.classList.add('bottomnavbar');
   bottomNavbar.innerHTML = carouselDiv.innerHTML;
-    carouselDiv.appendChild(bottomNavbar);
-    document.querySelector(`[data-id="0"]`).classList.add('visible')
+  carouselDiv.appendChild(bottomNavbar);
+  document.querySelector(`[data-id="0"]`).classList.add('visible');
 };
 
 export const moveToNextPic = () => {
-    const currentPic = document.querySelector('.visible');
-    const currentPicId = currentPic.getAttribute('data-id')
-
-    currentPic.classList.remove('visible')
+  const currentPic = document.querySelector('.visible');
+  const currentPicId = currentPic.getAttribute('data-id');
+  currentPic.classList.remove('visible');
+  const nextPic = document.querySelector(`[data-id="${+currentPicId + 1}"]`);
+  nextPic.classList.add('visible');
 };
 
 export default createCarousel;

@@ -3,3 +3,23 @@ import './main.scss';
 import './js/DOM'
 
 import './js/eventListeners'
+import createCarousel from './js/DOM';
+
+const imgs = [
+  {
+    url: 'https://i.picsum.photos/id/701/200/200.jpg?hmac=kPmkJLn8J5cv4wQc5yeM7iQpuoq405kTkMTzQ2hb9sM',
+  },
+  {
+    url: 'https://i.picsum.photos/id/701/200/200.jpg?hmac=kPmkJLn8J5cv4wQc5yeM7iQpuoq405kTkMTzQ2hb9sM',
+  },
+  {
+    url: 'https://i.picsum.photos/id/701/200/200.jpg?hmac=kPmkJLn8J5cv4wQc5yeM7iQpuoq405kTkMTzQ2hb9sM',
+  },
+  {
+    url: 'https://i.picsum.photos/id/701/200/200.jpg?hmac=kPmkJLn8J5cv4wQc5yeM7iQpuoq405kTkMTzQ2hb9sM',
+  },
+  {
+    url: 'https://i.picsum.photos/id/701/200/200.jpg?hmac=kPmkJLn8J5cv4wQc5yeM7iQpuoq405kTkMTzQ2hb9sM',
+  },
+];
+createCarousel(imgs)

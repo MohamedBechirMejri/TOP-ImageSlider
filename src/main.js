@@ -1,8 +1,8 @@
 import './main.scss';
 
-import './js/eventListeners';
-
 import createCarousel from './js/DOM';
+
+import listen from './js/eventListeners';
 
 const imgs = [
   {
@@ -22,3 +22,4 @@ const imgs = [
   },
 ];
 createCarousel(imgs);
+listen()

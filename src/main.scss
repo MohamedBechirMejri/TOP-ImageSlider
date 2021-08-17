@@ -56,6 +56,7 @@ body {
     #imgs-container {
         height: 100%;
         width: 100%;
+
         .slideDiv {
             display: flex;
             height: 100%;
@@ -73,4 +74,27 @@ body {
         }
     }
 
+    .bottomnavbar {
+        position: fixed;
+        bottom: 4em;
+        left: 50%;
+        transform: translate(-50%);
+        width: fit-content;
+        height: 2em;
+        display: flex;
+
+        .slideDiv {
+            height: 100%;
+
+            .slide {
+                height: 100%;
+                border-radius: 50%;
+                display: block !important;
+
+                &:hover {
+                    transform: scale(1.5);
+                }
+            }
+        }
+    }
 }

@@ -16,11 +16,31 @@ body {
         position: absolute;
         top: 50%;
         transform: translate(0, -50%);
+        width: 3em;
+        height: 2em;
+
         &#nav-left {
             left: 3em;
+
+            &::before {
+                @include mixins.before-after;
+                border-left: none;
+                left: -1.2em;
+
+                &:hover {
+                    border-color: aliceblue;
+                }
+            }
         }
+
         &#nav-right {
             right: 3em;
+
+            &::after {
+                @include mixins.before-after;
+                border-right: none;
+                right: -1.2em;
+            }
         }
     }
 }

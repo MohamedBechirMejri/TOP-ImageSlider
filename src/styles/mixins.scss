@@ -1,11 +1,11 @@
 @mixin before-after {
-            content: '';
-            display: block;
-            position: absolute;
-            top: -0.1em;
-            width: 0;
-            height: 0;
-            border: 3em solid white;
-            border-top: 3em solid transparent;
-            border-bottom: 3em solid transparent;
-        }
+    content: '';
+    display: block;
+    position: absolute;
+    top: -1.1em;
+    width: 0;
+    height: 0;
+    border: 2em solid white;
+    border-top: 2em solid transparent;
+    border-bottom: 2em solid transparent;
+}

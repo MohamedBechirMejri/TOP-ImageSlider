@@ -9,5 +9,9 @@ export const createCarousel = (array) => {
     )}" class="slide">`;
         carouselDiv.appendChild(imgDiv);
     });
+    const bottomNavbar = document.createElement('div');
+    bottomNavbar.classList.add('bottomnavbar');
+    bottomNavbar.innerHTML = carouselDiv.innerHTML;
+    carouselDiv.appendChild(bottomNavbar);
 };
 export default createCarousel;

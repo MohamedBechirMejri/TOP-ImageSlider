@@ -1,5 +1,5 @@
 const createCarousel = (array) => {
-    const carouselDiv = document.getElementById('carousel');
+    const carouselDiv = document.getElementById('imgs-container');
     carouselDiv.innerHTML = '';
     array.forEach((element) => {
         const imgDiv = document.createElement('div');

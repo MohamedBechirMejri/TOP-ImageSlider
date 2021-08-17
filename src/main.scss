@@ -10,7 +10,7 @@ body {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: black;
+    background-color: colors.$light;
 
     .img-nav-button {
         position: absolute;
@@ -27,8 +27,12 @@ body {
                 border-left: none;
                 left: -1.2em;
 
-                &:hover {
-                    border-color: aliceblue;
+
+            }
+
+            &:hover {
+                &::before {
+                    border-right-color: colors.$dark;
                 }
             }
         }
@@ -40,6 +44,12 @@ body {
                 @include mixins.before-after;
                 border-right: none;
                 right: -1.2em;
+            }
+
+            &:hover {
+                &::after {
+                    border-left-color: colors.$dark;
+                }
             }
         }
     }

@@ -1,4 +1,4 @@
-export const createCarousel = (array) => {
+const createCarousel = (array) => {
     const carouselDiv = document.getElementById('carousel');
     carouselDiv.innerHTML = '';
     array.forEach((element) => {

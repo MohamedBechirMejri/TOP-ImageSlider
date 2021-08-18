@@ -91,10 +91,9 @@ body {
         .slideDiv {
             height: 100%;
 
-            .slide {
+            .navslide {
                 height: 100%;
                 border-radius: 50%;
-                display: block !important;
 
                 &:hover {
                     transform: scale(1.5);

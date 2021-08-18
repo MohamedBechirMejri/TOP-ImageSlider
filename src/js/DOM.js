@@ -31,7 +31,7 @@ export const moveToNextPic = () => {
     const currentPic = document.querySelector('.visible');
     let currentPicId = currentPic.getAttribute('data-id');
 
-    currentPicId == slides.length - 1 ? (currentPicId = '-1') : ''; // refactor this into own function later.
+    currentPicId == slides.length - 1 ? (currentPicId = '-1') : ''; // TODO: refactor this into own function later.
     currentPic.classList.remove('visible');
     const nextPic = document.querySelector(`[data-id="${+currentPicId + 1}"]`);
     nextPic.classList.add('visible');
@@ -42,7 +42,7 @@ export const moveToLastPic = () => {
     const currentPic = document.querySelector('.visible');
     let currentPicId = currentPic.getAttribute('data-id');
 
-    currentPicId == 0 ? (currentPicId = slides.length) : ''; // refactor this into own function later.
+    currentPicId == 0 ? (currentPicId = slides.length) : ''; // TODO: refactor this into own function later.
     currentPic.classList.remove('visible');
     const nextPic = document.querySelector(`[data-id="${+currentPicId - 1}"]`);
     nextPic.classList.add('visible');

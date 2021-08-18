@@ -20,7 +20,7 @@ export const moveToNextPic = () => {
   const currentPic = document.querySelector('.visible');
   const currentPicId = currentPic.getAttribute('data-id');
   currentPic.classList.remove('visible');
-  const nextPic = document.querySelector(`[data-id="${+currentPicId + 1}"]`);
+    const nextPic = document.querySelector(`[data-id="${+currentPicId + 1}"]`);
   nextPic.classList.add('visible');
 };
 

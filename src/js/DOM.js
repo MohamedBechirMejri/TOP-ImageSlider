@@ -37,4 +37,15 @@ export const moveToNextPic = () => {
   nextPic.classList.add('visible');
 };
 
+export const moveToLastPic = () => {
+  const slides = document.querySelectorAll('.slide');
+  const currentPic = document.querySelector('.visible');
+  let currentPicId = currentPic.getAttribute('data-id');
+
+  currentPicId == 0 ? (currentPicId = slides.length) : ''; //refactor this into own function later.
+  currentPic.classList.remove('visible');
+  const nextPic = document.querySelector(`[data-id="${+currentPicId - 1}"]`);
+  nextPic.classList.add('visible');
+};
+
 export default createCarousel;

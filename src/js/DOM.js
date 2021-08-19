@@ -43,6 +43,8 @@ export const moveToNextPic = () => {
     currentPic.classList.remove('visible');
     const nextPic = document.querySelector(`[data-id="${+currentPicId + 1}"]`);
     nextPic.classList.add('visible');
+
+    changeNavPic(+currentPicId + 1);
 };
 
 export const moveToLastPic = () => {
@@ -55,6 +57,8 @@ export const moveToLastPic = () => {
     currentPic.classList.remove('visible');
     const nextPic = document.querySelector(`[data-id="${+currentPicId - 1}"]`);
     nextPic.classList.add('visible');
+
+    changeNavPic(+currentPicId - 1);
 };
 
 export const moveToClickedPic = (id) => {

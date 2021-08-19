@@ -93,7 +93,12 @@ body {
 
             .navslide {
                 height: 100%;
+                border-style: solid;
+                border-color: colors.$light;
+                border-width: 0.15em;
                 border-radius: 50%;
+                margin: 0.5em;
+
 
                 &:hover {
                     transform: scale(1.5);

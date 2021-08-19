@@ -10,7 +10,7 @@ A Slideshow Plugin that can quickly be used in websites. It can be improved by a
 
 ## installation
 
-`npm install @mohamedbechirmejri/TOP-ImageSlider`
+`npm install top-image-slider`
 
 ## How to use
 
@@ -27,7 +27,7 @@ A Slideshow Plugin that can quickly be used in websites. It can be improved by a
 ### 2 - import main.js into your project
 
 ```javascript
-import '@mohamedbechirmejri/TOP-ImageSlider/src/main';
+import 'top-image-slider/src/main';
 ```
 
 ### 3- call the function ImageSlider

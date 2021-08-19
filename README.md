@@ -69,7 +69,7 @@ ImageSlider([
   {
     url: 'https://i.picsum.photos/id/233/900/900.jpg?hmac=6DKx1SCQQGBKJ_Vdr5HejihbuoY_B5dPlMNESpf20Vc',
   },
-];, 5000);
+], 5000);
 ```
 
 ## Brainstorm

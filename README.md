@@ -48,7 +48,7 @@ ImageSlider(arrayOfImages, timeout);
 ];
 ```
 
-- `timeout` should be in milliseconds. for example to wait 5s between each image change enter `5000`
+- `timeout` should be in milliseconds. for example to wait 5s between each image change, enter `5000`
 
 #### Example
 

@@ -21,10 +21,10 @@ const createCarousel = (array) => {
         slide.classList.remove('slide');
         slide.classList.add('navslide');
     });
-
     carouselDiv.appendChild(bottomNavbar);
 
     document.querySelector(`[data-id="0"]`).classList.add('visible');
+        document.querySelector(`.navslide[data-id="0"]`).classList.add('nav-visible');
 };
 
 export const moveToNextPic = () => {
@@ -57,6 +57,15 @@ export const moveToClickedPic = (id) => {
 
     const nextPic = document.querySelector(`[data-id="${id}"]`);
     nextPic.classList.add('visible');
+
+
+        const currentNavPic = document.querySelector('.navslide.nav-visible');
+        currentNavPic.classList.remove('nav-visible');
+
+        const nextNavPic = document.querySelector(
+          `.navslide[data-id="${id}"]`,
+        );
+        nextNavPic.classList.add('nav-visible');
 };
 
 export default createCarousel;

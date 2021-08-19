@@ -6,6 +6,10 @@ body {
     padding: 0;
 }
 
+.bg-image {
+    background-image: url('https://i.picsum.photos/id/530/900/900.jpg?hmac=csvEV8oxpqw5UTku5vZV82oZrLN_CEsDIcrUhx8ubKc');
+}
+
 #carousel {
     position: relative;
     height: 100vh;
@@ -19,7 +23,7 @@ body {
         height: 100%;
         width: 100%;
         position: absolute;
-        background-image: url('https://i.picsum.photos/id/530/900/900.jpg?hmac=csvEV8oxpqw5UTku5vZV82oZrLN_CEsDIcrUhx8ubKc');
+        @extend .bg-image
     }
 
     .img-nav-button {

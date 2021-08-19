@@ -2,7 +2,7 @@
 const changeBgImage = () => {
     const currentPic = document.querySelector('.visible');
     const src = currentPic.getAttribute('src');
-    document.styleSheets[0].cssRules[1].style.backgroundImage = `url("${src}")`;
+    document.styleSheets[0].cssRules[1].style.backgroundImage = `url("${src}")`; //* Very weird hack
 };
 const createCarousel = (array) => {
     const carouselDiv = document.getElementById('imgs-container');

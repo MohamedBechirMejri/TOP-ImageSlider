@@ -95,15 +95,16 @@ body {
                 height: 100%;
                 box-shadow: 0 0 0 0.12em colors.$light;
                 border-radius: 50%;
-                margin: 0.5em;
+                margin: 0.4em;
                 transition: all 150ms;
+                opacity: 0.9;
 
                 &:hover {
-                    transform: scale(1.5);
+                    transform: scale(1.2);
                 }
 
                 &.nav-visible {
-                    transform: scale(1.5);
+                    transform: scale(1.3);
                 }
             }
         }

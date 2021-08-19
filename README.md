@@ -15,8 +15,8 @@
   - ~~should have a class that differentiates them from the main imgs~~
   - ~~the current img should be highlighted to show where the user is~~
   - ~~pressing one of the imgs should change the picture~~
-- every 5 seconds the imgs change automatically
-  - should be a simple click on the right nav button
+- ~~every 5 seconds the imgs change automatically~~
+  - ~~should be a simple click on the right nav button~~
   - ~~if the current img id == array.length then change the picture to id == 1~~
-  - the number of seconds should be a variable so the dev can choose how many seconds they want the slideshow to take
-- change background of body to to a blurred version of current img.
+  - ~~the number of seconds should be a variable so the dev can choose how many seconds they want the slideshow to take~~
+- ~~change background of carousel to to a blurred version of current img.~~

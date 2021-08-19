@@ -93,9 +93,7 @@ body {
 
             .navslide {
                 height: 100%;
-                border-style: solid;
-                border-color: colors.$light;
-                border-width: 0.15em;
+                box-shadow: 0 0 0 0.12em colors.$light;
                 border-radius: 50%;
                 margin: 0.5em;
 

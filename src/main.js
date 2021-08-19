@@ -21,6 +21,13 @@ const imgs = [
     url: 'https://i.picsum.photos/id/233/900/900.jpg?hmac=6DKx1SCQQGBKJ_Vdr5HejihbuoY_B5dPlMNESpf20Vc',
   },
 ];
-createCarousel(imgs);
-listen()
-slideShow(5000)
+
+listen();
+
+const ImageSlider = (arrayOfImages, timeout) => {
+  createCarousel(arrayOfImages);
+  slideShow(timeout);
+};
+ImageSlider(imgs, 5000);
+
+export default ImageSlider;

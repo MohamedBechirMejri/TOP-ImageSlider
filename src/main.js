@@ -1,6 +1,6 @@
 import './main.scss';
 
-import createCarousel from './js/DOM';
+import createCarousel, { slideShow } from './js/DOM';
 
 import listen from './js/eventListeners';
 
@@ -23,3 +23,4 @@ const imgs = [
 ];
 createCarousel(imgs);
 listen()
+slideShow(5000)

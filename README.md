@@ -24,6 +24,10 @@ A Slideshow Plugin that can quickly be used in websites. It can be improved by a
 </div>
 ```
 
+```javascript
+ImageSlider(arrayOfImages, timeout)
+```
+
 ### 2 - import main.js into your project
 
 `import '@mohamedbechirmejri/TOP-ImageSlider/src/main'`

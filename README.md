@@ -1,7 +1,5 @@
 # TOP-ImageSlider
 
-# top-drop-down-menu aka my first npm package
-
 ## What is it?
 
 A Slideshow Plugin that can quickly be used in websites. It can be improved by adding many animations and tweaks but I'm ok with it like this for now.

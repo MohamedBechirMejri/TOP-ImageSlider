@@ -98,6 +98,10 @@ body {
                 &:hover {
                     transform: scale(1.5);
                 }
+
+                &.nav-visible {
+                    transform: scale(1.5);
+                }
             }
         }
     }

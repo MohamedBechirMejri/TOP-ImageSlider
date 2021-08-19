@@ -24,21 +24,29 @@ A Slideshow Plugin that can quickly be used in websites. It can be improved by a
 </div>
 ```
 
-```javascript
-ImageSlider(arrayOfImages, timeout)
-```
-
 ### 2 - import main.js into your project
 
-`import '@mohamedbechirmejri/TOP-ImageSlider/src/main'`
+```javascript
+import '@mohamedbechirmejri/TOP-ImageSlider/src/main';
+```
 
 ### 3- call the function ImageSlider
 
-`ImageSlider(arrayOfImages, timeout)`
+```javascript
+ImageSlider(arrayOfImages, timeout);
+```
 
 - `arrayOfImages` should look like this
 
-  - `[{ url: 'linkToImage1', }, { url: 'linkToImage2', }, { url: 'linkToImage3', }, { url: 'linkToImage4', }, { url: 'linkToImage5', }, ]`
+```javascript
+[
+  { url: 'linkToImage1' },
+  { url: 'linkToImage2' },
+  { url: 'linkToImage3' },
+  { url: 'linkToImage4' },
+  { url: 'linkToImage5' },
+];
+```
 
 - `timeout` should be in milliseconds. for example to wait 5s between each image change enter `5000`
 

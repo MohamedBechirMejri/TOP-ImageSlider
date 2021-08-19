@@ -9,7 +9,7 @@
 - ~~the imgs should be invisible by default except for the first one and when we click the nav buttons we give the visibility to the next img.~~
   - ~~should get the id of the current img, and give the .visible class to the item that has id +/- 1.~~
   - ~~the ids should be data-ids so we can use them in multiple places~~
-- animate the imgs when appearing/disappearing.
+- ~~animate the imgs when appearing/disappearing.~~
 - ~~put a small bar on the bottom that lists all the images.~~
   - ~~should have the same data-ids as the imgs~~
   - ~~should have a class that differentiates them from the main imgs~~
@@ -19,3 +19,4 @@
   - should be a simple click on the right nav button
   - ~~if the current img id == array.length then change the picture to id == 1~~
   - the number of seconds should be a variable so the dev can choose how many seconds they want the slideshow to take
+- change background of body to to a blurred version of current img.

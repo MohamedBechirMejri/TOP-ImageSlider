@@ -1,3 +1,4 @@
+/* eslint-disable eqeqeq */
 const createCarousel = (array) => {
     const carouselDiv = document.getElementById('imgs-container');
     carouselDiv.innerHTML = '';
@@ -31,6 +32,7 @@ export const moveToNextPic = () => {
     const currentPic = document.querySelector('.visible');
     let currentPicId = currentPic.getAttribute('data-id');
 
+    // eslint-disable-next-line no-unused-expressions
     currentPicId == slides.length - 1 ? (currentPicId = '-1') : ''; // TODO: refactor this into own function later.
     currentPic.classList.remove('visible');
     const nextPic = document.querySelector(`[data-id="${+currentPicId + 1}"]`);
@@ -42,6 +44,7 @@ export const moveToLastPic = () => {
     const currentPic = document.querySelector('.visible');
     let currentPicId = currentPic.getAttribute('data-id');
 
+    // eslint-disable-next-line no-unused-expressions
     currentPicId == 0 ? (currentPicId = slides.length) : ''; // TODO: refactor this into own function later.
     currentPic.classList.remove('visible');
     const nextPic = document.querySelector(`[data-id="${+currentPicId - 1}"]`);

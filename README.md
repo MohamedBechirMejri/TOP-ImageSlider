@@ -34,10 +34,11 @@ A Slideshow Plugin that can quickly be used in websites. It can be improved by a
 
 `ImageSlider(arrayOfImages, timeout)`
 
-`arrayOfImages` should look like this
+`arrayOfImages` should look like this:
 
 `[{ url: 'linkToImage1', }, { url: 'linkToImage2', }, { url: 'linkToImage3', }, { url: 'linkToImage4', }, { url: 'linkToImage5', }, ]`
 
+`timeout` should be in milliseconds. for example to wait 5s between each image change enter `5000`
 ## Brainstorm
 
 - ~~Create a function that takes an array of objects, each having a 'url' property with a value linking to the img src.~~

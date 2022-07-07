@@ -91,4 +91,4 @@ ImageSlider([
   - ~~should be a simple click on the right nav button~~
   - ~~if the current img id == array.length then change the picture to id == 1~~
   - ~~the number of seconds should be a variable so the dev can choose how many seconds they want the slideshow to take~~
-- ~~change background of carousel to to a blurred version of current img.~~
+- ~~change background of carousel to to a blurred version of current img.~~ 
